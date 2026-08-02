@@ -77,9 +77,9 @@ If SensaLisa contributes to your research, please cite the repository and any ac
 
 ```bibtex
 @software{SensaLisa,
-  author = {Shiva Shaushnav},
+  author = {Bhuvaneshwari Kashi},
   title  = {SensaLisa: A User-Friendly Toolkit for LISA Sensitivity Curves},
-  year   = {2026},
+  year   = {2024},
   url    = {https://github.com/BHUVANAKASHI/SensaLisa}
 }
 ```
