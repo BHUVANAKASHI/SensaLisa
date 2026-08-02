@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner/SensaLISA.png" width="1000">
+  <img src="banner/SensaLisa.png" width="1000">
 </p>
 
 # SensaLisa
