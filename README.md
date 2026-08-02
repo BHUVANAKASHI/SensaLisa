@@ -2,7 +2,6 @@
   <img src="banner/SensaLisa.png" width="1000">
 </p>
 
-# SensaLisa
 
 **SensaLisa** is a lightweight, user-friendly Python toolkit for generating and visualizing sensitivity curves for the Laser Interferometer Space Antenna (LISA).
 
