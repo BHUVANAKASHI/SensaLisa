@@ -94,6 +94,19 @@ Please open an Issue or submit a Pull Request.
 
 ---
 
+## Acknowledgements
+
+SensaLisa is inspired by and partially adapts components from the LISA_Sensitivity toolkit developed by the eXtreme Gravity Institute. We gratefully acknowledge the original authors for their implementation of the LISA sensitivity model and their contribution to the gravitational-wave community.
+
+SensaLisa extends this foundation by providing a streamlined, user-friendly interface, simplified workflows, and enhanced visualisation tools for generating and exploring LISA sensitivity curves.
+
 ## License
 
 This project is released under the MIT License.
+
+## References
+
+This project builds upon the following work:
+
+- Robson, T., Cornish, N. J., & Liu, C. (2019). *The construction and use of LISA sensitivity curves*. Classical and Quantum Gravity, 36(10), 105011.
+- LISA_Sensitivity Toolkit: https://github.com/eXtremeGravityInstitute/LISA_Sensitivity
