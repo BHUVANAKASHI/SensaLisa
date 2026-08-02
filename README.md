@@ -3,6 +3,14 @@
 </p>
 
 
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+
+![License](https://img.shields.io/badge/License-MIT-green)
+
+![Version](https://img.shields.io/badge/version-1.0-orange)
+
+-----------------------------------------------------------
+
 **SensaLisa** is a lightweight, user-friendly Python toolkit for generating and visualizing sensitivity curves for the Laser Interferometer Space Antenna (LISA).
 
 Designed for both gravitational-wave researchers and students, SensaLisa provides an intuitive interface for computing detector sensitivity without requiring extensive setup or familiarity with the underlying implementation.
