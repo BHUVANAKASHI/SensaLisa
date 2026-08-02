@@ -90,7 +90,7 @@ If SensaLisa contributes to your research, please cite the repository and any ac
 @software{SensaLisa,
   author = {Bhuvaneshwari Kashi},
   title  = {SensaLisa: A User-Friendly Toolkit for LISA Sensitivity Curves},
-  year   = {2024},
+  year   = {2025},
   url    = {https://github.com/BHUVANAKASHI/SensaLisa}
 }
 ```
