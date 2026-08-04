@@ -189,7 +189,9 @@ If SensaLisa contributes to your research, please cite the repository.
   author  = {Bhuvaneshwari Kashi},
   title   = {SensaLisa: A User-Friendly Toolkit for LISA Sensitivity Curves},
   year    = {2026},
-  url     = {https://github.com/BHUVANAKASHI/SensaLisa}
+  version = {0.1.0},
+  url     = {https://github.com/BHUVANAKASHI/SensaLisa},
+  note    = {Version 0.1.0}
 }
 ```
 
