@@ -1,0 +1,77 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "SensaLisa"
+version = "0.1.0"
+description = "A user-friendly Python toolkit for generating and visualising LISA sensitivity curves."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+
+authors = [
+    { name = "Bhuvaneshwari Kashi" }
+]
+
+maintainers = [
+    { name = "Bhuvaneshwari Kashi" }
+]
+
+keywords = [
+    "LISA",
+    "gravitational waves",
+    "astrophysics",
+    "sensitivity curves",
+    "scientific computing",
+    "signal-to-noise ratio"
+]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Astronomy",
+    "Topic :: Scientific/Engineering :: Physics"
+]
+
+dependencies = [
+    "numpy>=1.23",
+    "matplotlib>=3.6"
+]
+
+
+[project.optional-dependencies]
+test = [
+    "pytest>=8"
+]
+
+dev = [
+    "build>=1.2",
+    "twine>=6",
+    "pytest>=8"
+]
+
+
+[project.urls]
+Homepage = "https://github.com/BHUVANAKASHI/SensaLisa"
+Repository = "https://github.com/BHUVANAKASHI/SensaLisa"
+Issues = "https://github.com/BHUVANAKASHI/SensaLisa/issues"
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
