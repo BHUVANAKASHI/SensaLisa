@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: "SensaLisa"
+message: "If you use SensaLisa in your research, please cite this software."
+type: software
+
+authors:
+  - family-names: "Kashi"
+    given-names: "Bhuvaneshwari"
+
+version: "0.1.0"
+
+date-released: 2026-08-04
+
+repository-code: "https://github.com/BHUVANAKASHI/SensaLisa"
+
+license: MIT
+
+keywords:
+  - LISA
+  - Gravitational Waves
+  - Astrophysics
+  - Numerical Relativity
+  - Scientific Computing
+  - Signal-to-Noise Ratio
+
+abstract: >
+  SensaLisa is a lightweight, user-friendly Python toolkit for generating,
+  visualizing, and evaluating LISA sensitivity curves for gravitational-wave
+  research.
