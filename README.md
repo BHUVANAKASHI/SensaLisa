@@ -7,6 +7,7 @@
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Version](https://img.shields.io/badge/version-0.1.1-orange)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21797858.svg)](https://doi.org/10.5281/zenodo.21797858)
 
 </p>
 
