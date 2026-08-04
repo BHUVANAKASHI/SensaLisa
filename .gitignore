@@ -22,3 +22,4 @@ dist/
 # Optional generated figures
 *.png
 *.pdf
+test_env/
