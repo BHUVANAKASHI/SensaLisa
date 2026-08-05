@@ -69,7 +69,7 @@ Alternatively, install directly from GitHub
 python -m pip install git+https://github.com/BHUVANAKASHI/SensaLisa.git
 ```
 
-After publication on PyPI:
+**Or Direct PyPI**:
 
 ```bash
 pip install SensaLisa
