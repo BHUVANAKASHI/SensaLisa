@@ -34,7 +34,7 @@ Designed for gravitational-wave researchers, students, and educators, SensaLisa 
 
 Existing implementations of the LISA sensitivity model are often embedded within larger software packages or designed primarily for detector simulations.
 
-SensaLisa focuses on providing a **clean, lightweight, and user-friendly interface** for generating and visualizing LISA sensitivity curves without unnecessary complexity.
+SensaLisa focuses on providing a **clean, lightweight, and user-friendly interface** for generating and visualising LISA sensitivity curves without unnecessary complexity.
 
 Whether you are
 
@@ -77,6 +77,42 @@ pip install SensaLisa
 
 ---
 
+# Dependencies
+
+- NumPy
+- Matplotlib
+- 
+---
+
+# API Overview
+
+SensaLisa currently provides two primary classes.
+
+### `LISASensitivity`
+
+Generates the LISA sensitivity curve over a logarithmically spaced frequency grid.
+
+Ideal for
+
+- detector visualisation
+- sensitivity studies
+- publication figures
+
+---
+
+### `LISASensitivityFromWaveform`
+
+Evaluates the LISA detector sensitivity directly at frequencies supplied by a waveform model.
+
+Ideal for
+
+- waveform comparisons
+- matched-filter analyses
+- signal-to-noise ratio calculations
+
+---
+
+
 # Quick Start
 
 Generate a standalone LISA sensitivity curve.
@@ -111,33 +147,6 @@ frequencies, psd = lisa.get_psd()
 ```
 
 ---
-
-# Main Classes
-
-### `LISASensitivity`
-
-Generates the LISA sensitivity curve over a logarithmically spaced frequency grid.
-
-Ideal for
-
-- detector visualisation
-- sensitivity studies
-- publication figures
-
----
-
-### `LISASensitivityFromWaveform`
-
-Evaluates the LISA detector sensitivity directly at frequencies supplied by a waveform model.
-
-Ideal for
-
-- waveform comparisons
-- matched-filter analyses
-- signal-to-noise ratio calculations
-
----
-
 # Examples and Tutorials
 
 Example notebooks are available in the **examples/** directory.
@@ -183,16 +192,17 @@ SensaLisa is suitable for
 
 # Citation
 
-If SensaLisa contributes to your research, please cite the repository.
+If SensaLisa contributes to your research, please cite the software (Zenodo DOI) and Robert, Cornish & Liu (2019).
 
 ```bibtex
-@software{SensaLisa,
-  author  = {Bhuvaneshwari Kashi},
-  title   = {SensaLisa: A User-Friendly Toolkit for LISA Sensitivity Curves},
-  year    = {2026},
-  version = {0.1.0},
-  url     = {https://github.com/BHUVANAKASHI/SensaLisa},
-  note    = {Version 0.1.0}
+@software{Kashi2026SensaLisa,
+  author    = {Bhuvaneshwari Kashi},
+  title     = {SensaLisa: A User-Friendly Toolkit for LISA Sensitivity Curves},
+  year      = {2026},
+  version   = {0.1.0},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.21797858},
+  url       = {https://doi.org/10.5281/zenodo.21797858}
 }
 ```
 
@@ -214,6 +224,15 @@ The development, testing, and validation of this software benefited from the use
 
 - Robson, T., Cornish, N. J., & Liu, C. (2019). *The construction and use of LISA sensitivity curves*. Classical and Quantum Gravity, **36**, 105011.
 - LISA_Sensitivity: https://github.com/eXtremeGravityInstitute/LISA_Sensitivity
+
+---
+
+# Future Development
+
+- Additional detector configurations
+- Extended visualization
+- Time Delay Interferometry support
+- Additional helper utilities
 
 ---
 
