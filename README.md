@@ -120,7 +120,7 @@ Generates the LISA sensitivity curve over a logarithmically spaced frequency gri
 
 Ideal for
 
-- detector visualization
+- detector visualisation
 - sensitivity studies
 - publication figures
 
@@ -205,6 +205,7 @@ SensaLisa is inspired by and partially adapts components from the **LISA_Sensiti
 We gratefully acknowledge the original authors for their implementation of the LISA sensitivity model and their contributions to the gravitational-wave community.
 
 SensaLisa extends this foundation by providing a streamlined, user-friendly interface, simplified workflows, and enhanced visualization tools for generating and exploring LISA sensitivity curves.
+
 The development, testing, and validation of this software benefited from the use of High Performance Computing (HPC) resources provided by the Astrophysical Relativity Group at the International Centre for Theoretical Sciences (ICTS–TIFR), including the SONIC computing cluster. The author also acknowledges the use of the services provided by Research Computing at Florida Atlantic University, including the Athene HPC cluster.
 
 ---
