@@ -8,6 +8,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Version](https://img.shields.io/badge/version-0.1.1-orange)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21797858.svg)](https://doi.org/10.5281/zenodo.21797858)
+[![Tests](https://github.com/BHUVANAKASHI/SensaLisa/actions/workflows/tests.yml/badge.svg)](https://github.com/BHUVANAKASHI/SensaLisa/actions/workflows/tests.yml)
 
 </p>
 
