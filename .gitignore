@@ -23,3 +23,17 @@ dist/
 *.png
 *.pdf
 test_env/
+
+# Local environments
+.venv/
+test_env/
+pypi_test_env/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Build output
+build/
+dist/
